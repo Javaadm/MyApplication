@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lamaftllocal.myapplication.Frag_reg">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Project name"
+        android:id = "@+id/textView"
+        android:layout_centerHorizontal = "true"
+        android:textSize = "35dp" />
+
+    <EditText
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/editText_name"
+        android:hint = "Enter Login"
+        android:focusable = "true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "#ffff25e6"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/login_progress"
+        android:layout_toEndOf="@+id/login_progress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        android:textColorHint="#ffff299f"
+        android:hint="Password"
+        android:layout_below="@+id/editText_name"
+        android:layout_toRightOf="@+id/login_progress"
+        android:layout_toEndOf="@+id/login_progress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText_password1"
+        android:textColorHint="#ffff299f"
+        android:hint="Enter Nickname"
+        android:layout_below="@+id/editText_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REG"
+        android:layout_marginBottom="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

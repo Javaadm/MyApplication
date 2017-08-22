@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lamaftllocal.myapplication.Frag_choose">
+
+
+    <Button
+        android:id="@+id/button_na_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp" />
+
+    <Button
+        android:id="@+id/button_na_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="pass"
+        android:layout_below="@+id/button_na_name"
+        android:layout_alignStart="@+id/button_na_name" />
+
+    <Button
+        android:id="@+id/button_na_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="relog"
+        android:layout_below="@+id/button_na_pass"
+        android:layout_alignStart="@+id/button_na_pass" />
+</RelativeLayout>

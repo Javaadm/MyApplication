@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+        android:key="screen"
+        android:summary=""
+        android:title="Fonts">
+        <ListPreference
+            android:entries="@array/entries"
+            android:entryValues="@array/entry_values"
+            android:key="list"
+            android:summary=""
+            android:title="Size"></ListPreference>
+        <ListPreference
+            android:entries="@array/entries"
+            android:entryValues="@array/entry_values"
+            android:key="list1"
+            android:summary=""
+            android:title="Color"></ListPreference>
+        <ListPreference
+            android:entries="@array/entries"
+            android:entryValues="@array/entry_values"
+            android:key="list2"
+            android:summary=""
+            android:title="Font type"></ListPreference>
+    </PreferenceScreen>
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_music"
+        android:title="Music" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_sound"
+        android:title="Sound" />
+</PreferenceScreen>
+
+

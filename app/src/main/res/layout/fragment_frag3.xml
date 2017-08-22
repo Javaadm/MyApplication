@@ -1,0 +1,28 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="4"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    tools:context="com.example.lamaftllocal.myapplication.Frag3">
+
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher"/>
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher"/>
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+    <ImageButton app:srcCompat="@mipmap/ic_launcher" />
+
+</GridLayout>
